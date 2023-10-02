@@ -48,14 +48,78 @@ Once you're done, make sure you **record a video** showing your project working.
 
 We have a checklist at the bottom of this README file, which you should update as your progress with your assignment. It will help us evaluate your project.
 
-- [ ] My code's working just fine! 🥳
-- [ ] I have recorded a video showing it working and embedded it in the README ▶️
-- [ ] I have tested all the normal working cases 😎
-- [ ] I have even solved some edge cases (brownie points) 💪
-- [ ] I added my very planned-out approach to the problem at the end of this README 📜
+- [x]  My code's working just fine! 🥳
+- [x]  I have recorded a video showing it working and embedded it in the README ▶️
+- [x]  I have tested all the normal working cases 😎
+- [x]  I have even solved some edge cases (brownie points) 💪
+- [x]  I added my very planned-out approach to the problem at the end of this README 📜
 
 ## Got Questions❓
 Feel free to check the discussions tab, you might get something of help there. Check out that tab before reaching out to us. Also, did you know, the internet is a great place to explore 😛
 
 ## Developer's Section
-*Add your video here, and your approach to the problem (optional). Leave some comments for us here if you want, we will be reading this :)*
+
+### Project Name
+    CSVConnect
+    
+### Video Link -
+    https://drive.google.com/file/d/1Hrb-zsaUukzvyDqHsSPGrk5dF0ZUPjok/view?usp=sharing
+
+    
+
+
+
+
+### Approach
+- **Upload CSV File:** 
+   - Users are prompted to upload a CSV file using a file input field.
+   - The uploaded CSV file is stored temporarily on the server.
+
+- **Display Options:**
+   - After uploading, users are presented with two main options:
+       - **Show CSV**: Displays the entire CSV file in an HTML table.
+       - **Apply Filters**: Allows users to apply filters to the data.
+
+- **Show CSV Option:**
+   - Clicking on this option opens the complete CSV file in an HTML table.
+   - Provides a button to "Go to Spreadsheet," which redirects the user to the Google Spreadsheet where the file is imported.
+
+- **Apply Filters Option:**
+   - Users can select the columns they want to filter based on.
+   - Once columns are selected, users can apply filtering criteria, such as filtering rows containing specific characters or words.
+
+- **Filter Data:**
+   - Implement filtering logic to process the selected columns and filtering criteria.
+   - Display the filtered data in an HTML table.
+
+- **Save Filtered Data to Google Sheets:**
+   - Provide an option to upload/save the filtered data to Google Sheets.
+   - Users can click an "Upload" button to send the filtered data to a designated Google Sheet.
+
+- **Show Filtered CSV Option:**
+   - After saving the filtered data, user will have the choice to see the filtered CSV data in a clear and organized HTML table.
+   - Moreover, user will find a button named "Open in Google Sheets" that he can click to seamlessly access the filtered data in a Google Spreadsheet.
+
+
+### Features
+- **CSV File Handling:**
+  - Upload and process CSV files with ease.
+
+- **Data Display:**
+  - View uploaded and filtered CSV data in HTML tables.
+  - Quick access to Google Sheets for further analysis.
+
+- **Filtering Capability:**
+  - Select specific columns for filtering.
+  - Versatile row-level and column-level filtering options.
+
+- **Integration with Google Sheets:**
+  - Save filtered data directly to Google Sheets.
+  - Conveniently open the Google Sheet for further editing.
+
+- **User-Friendly UI:**
+  - Intuitive and user-friendly interface for a seamless user experience.
+  - Clear buttons and labels for each action.
+
+- **Data Validation:**
+  - Implement data validation and error handling for robust performance.
